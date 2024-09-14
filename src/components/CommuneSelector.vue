@@ -20,7 +20,7 @@ const insee = ref([]);
 
 onMounted(async () => {
   try {
-    const response = await fetch('src/components/output.json');
+    const response = await fetch('/output.json');
     insee.value = await response.json();
   } catch (error) {
     console.error('Error loading insee data:', error);
