@@ -61,7 +61,7 @@ export const questions = [
 			{ text: "Sur une autre place en voirie à durée limitée au sud de la gare", next: "Q3a2" },
 			{ text: "Sur une place en voirie non-réglementée au sud de la gare", next: "Q3a2" },
 			{ text: "Dans un autre parking public au sud de la gare (Nayel, Place d'Armes...)", next: "Q3a2" },
-			{ text: "Sur un stationnement privé (box ou place de parking privée)", next: "Q3a2" },
+			{ text: "Sur un stationnement privé (box ou place de parking privée)", next: "Q3a4" },
 		],
 	},
 	{
@@ -89,7 +89,7 @@ export const questions = [
 	},
 	{
 		id: "Q3a4",
-		text: "Combien de temps allez-vous laisser votre voiture stationnée ?",
+		text: "Combien de temps allez-vous laisser votre vehicule stationnée ?",
 		options: [
 			{ text: "Moins de 2 heures", next: "Q4" },
 			{ text: "Une demi-journée (entre 2 et 4 heures)", next: "Q4" },
@@ -270,7 +270,7 @@ export const questions = [
 			{ text: "Sur une place en voirie à durée limitée entée au sud de la gare", next: "Q3a2_nv" },
 			{ text: "Sur une place en voirie non-réglementée au sud de la gare", next: "Q3a2_nv" },
 			{ text: "Dans un autre parking public au sud de la gare (Nayel, Place d'Armes...)", next: "Q3a2_nv" },
-			{ text: "Sur un stationnement privé (box ou place de parking privée)", next: "Q3a2_nv" },
+			{ text: "Sur un stationnement privé (box ou place de parking privée)", next: "Q3a4_nv" },
 		],
 	},
 	{
@@ -298,7 +298,7 @@ export const questions = [
 	},
 	{
 		id: "Q3a4_nv",
-		text: "Combien de temps allez-vous laisser votre voiture stationnée ?",
+		text: "Combien de temps allez-vous laisser votre vehicule stationnée ?",
 		options: [
 			{ text: "Moins de 2 heures", next: "Q8_nv" },
 			{ text: "Une demi-journée (entre 2 et 4 heures)", next: "Q8_nv" },
